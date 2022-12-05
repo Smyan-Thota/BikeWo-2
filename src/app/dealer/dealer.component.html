@@ -1,0 +1,173 @@
+
+<mat-sidenav-container>
+
+  <mat-sidenav mode="side" opened>
+  
+      <app-navbar></app-navbar>
+  </mat-sidenav>
+  <mat-grid-list cols="2" rowHeight="50px"  class="Mianhead">
+    <mat-grid-tile>
+    
+      <div>
+        <h1>Welcome To B<span>i</span>keWo</h1>
+      </div>
+    </mat-grid-tile>
+  
+    <mat-grid-tile>
+
+      <div id="Dlogo">
+      
+      <a href="#"> <img [src]="Ulogo" alt="..Logo" ></a> 
+      
+      </div>&nbsp;&nbsp;&nbsp;
+
+    <div class="userHeaing">
+        <h2><a href="#">admin</a></h2>
+    </div>
+    </mat-grid-tile>
+
+      </mat-grid-list>
+
+
+<mat-dialog-content class="mat-typography">
+  <mat-card class="mat-elevation-z4">
+    <mat-card class="mat-elevation-z8">
+        <h1 class="display-4">Dealer Creation</h1>
+        <form [formGroup]="DealerFrom">
+            <mat-grid-list cols="3" rowHeight="120px">
+                <mat-grid-tile>
+                       <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Dealer name</mat-label>
+              <input type="text" matInput
+                   placeholder="name" formControlName="DealerName">
+                     <mat-hint>DealerName!</mat-hint>
+          
+            </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Contact number</mat-label>
+                        <input  matInput type="number" class="example-right-align"
+                               placeholder="EnterNumber" formControlName="contactNumber"  maxlength="10" >
+                        <mat-hint>Phone number!</mat-hint>
+
+                      </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Email</mat-label>
+                        <input type="email" matInput 
+                               placeholder="Ex. pat@example.com" formControlName="Email">
+                        <mat-hint>Enter Email!</mat-hint>
+                   
+                      </mat-form-field>
+                </mat-grid-tile>
+            
+              </mat-grid-list>
+              <mat-grid-list cols="3" rowHeight="120px">
+                <mat-grid-tile>
+                       <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Address</mat-label>
+              <input type="adderss" matInput 
+                     placeholder="Enter adderss" formControlName="Address">
+                     <mat-hint>address!</mat-hint>
+         
+            </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>City</mat-label>
+                        <input type="text" matInput 
+                               placeholder="Enter City" formControlName="city">
+                        <mat-hint>City!</mat-hint>
+                      
+                      </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>State</mat-label>
+                        <input type="text" matInput 
+                               placeholder="Entere State" formControlName="State">
+                        <mat-hint> State / Province!</mat-hint>
+ 
+                      </mat-form-field>
+                </mat-grid-tile>
+            
+              </mat-grid-list>
+              <mat-grid-list cols="3" rowHeight="120px">
+                <mat-grid-tile>
+                       <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Pincode</mat-label>
+              <input tytype="number" class="example-right-align" matInput 
+                     placeholder="Pincode/zipcode" formControlName="Pincode"  #postalCode maxlength="6">
+                     <mat-hint>Pincode/zipcode!</mat-hint>
+
+            </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field class="example-full-width" appearance="fill" >
+    
+                            <mat-label>Select district</mat-label>
+                            <mat-select  matInput formControlName="district">
+                              <mat-option value="1">Adilabad</mat-option>
+                              <mat-option value="2">Bhadradri Kothagudem</mat-option>
+                              <mat-option value="3">Hyderabad</mat-option>
+                              <mat-option value="4">Jagitial</mat-option>
+                              <mat-option value="5">Jangaon</mat-option>
+                              <mat-option value="6">Jayashankar Bhupalapally</mat-option>
+                              <mat-option value="7">Jogulamba Gadwal</mat-option>
+                              <mat-option value="8">Kamareddy</mat-option>
+                              <mat-option value="9">Karimnagar</mat-option>
+                              <mat-option value="10">Khammam</mat-option>
+                              <mat-option value="11">Kumarambheem Asifabad</mat-option>
+                              <mat-option value="12">Mahabubabad</mat-option>
+                              <mat-option value="13">Mahabubnagar</mat-option>
+                              <mat-option value="14">Mancherial district</mat-option>
+                              <mat-option value="15">Medak</mat-option>
+                              <mat-option value="16">Medchal–Malkajgiri</mat-option>
+                              <mat-option value="17">Mulugu</mat-option>
+                              <mat-option value="18">Nagarkurnool</mat-option>
+                              <mat-option value="19">Narayanpet</mat-option>
+                              <mat-option value="20">Nalgonda</mat-option>
+                              <mat-option value="21">Nirmal</mat-option>
+                              <mat-option value="22">Nizamabad</mat-option>
+                              <mat-option value="23">Peddapalli</mat-option>
+                              <mat-option value="24">Rajanna Sircilla</mat-option>
+                              <mat-option value="25">Ranga Reddy</mat-option>
+                              <mat-option value="26">Sangareddy</mat-option>
+                              <mat-option value="27">Siddipet</mat-option>
+                              <mat-option value="28">Suryapet</mat-option>
+                              <mat-option value="29">Vikarabad</mat-option>
+                              <mat-option value="30">Wanaparthy</mat-option>
+                              <mat-option value="31">Warangal Rural</mat-option>
+                              <mat-option value="32">Warangal Urban</mat-option>
+                              <mat-option value="33">Yadadri Bhuvanagiri</mat-option>
+                            </mat-select>
+                        
+                    
+                   
+                      </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Comment</mat-label>
+                   
+                        <input type="text" matInput  
+                               placeholder="remarks" formControlName="massage">
+                        <mat-hint> remarks</mat-hint>
+  
+                        
+                      </mat-form-field>
+                </mat-grid-tile>
+            
+              </mat-grid-list>
+              <a mat-raised-button color="primary" type="button" routerLink="/dealer" (click)="submited()">Submit</a>&nbsp;
+              <a mat-raised-button  color="warn" routerLink="/DealreList">cancel</a>
+          </form>
+    </mat-card>
+</mat-card>
+</mat-dialog-content>
+ 
+ 
+   
+

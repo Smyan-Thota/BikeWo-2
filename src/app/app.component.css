@@ -1,0 +1,39 @@
+mat-sidenav-container{
+    height: 100%;
+   overflow-x: hidden;
+}
+mat-sidenav{
+    background-color: #0d1d41;
+    color:#fff;
+    width: 20%;
+    text-align: center;
+    height: 100%;
+
+}
+mat-drawer{
+    overflow-y: hidden !important;
+}
+.mat-list-base .mat-list-item{
+    color:#fff;
+  padding: 0px 10px;
+  cursor: pointer;
+
+}
+.Mianhead{
+    background-color: #0d1d41;
+    color:#fff;
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+}
+.Mianhead h1{
+    font-weight: bold;
+    font-size: 43px;
+    background: -webkit-linear-gradient(#eef1f0, #f6f7f9);
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+span{
+    color: green;
+}

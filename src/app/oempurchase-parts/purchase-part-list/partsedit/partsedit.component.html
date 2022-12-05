@@ -1,0 +1,66 @@
+
+
+<h1 mat-dialog-title>Vechicle Parts Edit</h1>
+<div mat-dialog-content>
+    <form [formGroup]="OEMPURCHASEFparts">
+        <div class="row">
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Model</mat-label>
+                <input type="text" matInput
+                     placeholder="Model" formControlName="Model">
+                       <mat-hint>Enter Model!</mat-hint>
+            
+              </mat-form-field>
+              <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>part specification</mat-label>
+                <input  matInput type="text" class="example-right-align"
+                       placeholder="Enter spec" formControlName="partspecification"  maxlength="10" >
+                <mat-hint>Enter spec!</mat-hint>
+    
+              </mat-form-field>
+              <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Model</mat-label>
+                <input type="text" matInput 
+                       placeholder="Model" formControlName="Model">
+                <mat-hint>Enter Model!</mat-hint>
+           
+              </mat-form-field>
+            </div>
+            <div class="row">
+          
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>OEMname</mat-label>
+                    <input type="text" matInput 
+                           placeholder="OEM Name" formControlName="OEMname">
+                           <mat-hint>OEMname!</mat-hint>
+               
+                  </mat-form-field>
+                  <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>No of Purchases</mat-label>
+                    <input type="text" matInput 
+                           placeholder="No of Purchases" formControlName="NoFpurchases">
+                    <mat-hint>No of Purchases!</mat-hint>
+                  
+                  </mat-form-field>
+                  <mat-form-field appearance="fill">
+                    <mat-label>Status</mat-label>
+                    <mat-select formControlName="status">
+                      <mat-option value="Purchased">Purchased</mat-option>
+                      <mat-option value="paymentCompleted">paymentCompleted</mat-option>
+                      <mat-option value="dispatched">dispatched</mat-option>
+                      <mat-option value="Enroute">En route</mat-option>
+                      <mat-option value="Delivered">Delivered</mat-option>
+                    </mat-select>
+                    <mat-hint>Selectstatus!</mat-hint>
+                  </mat-form-field>
+            </div>
+    </form>
+
+ 
+</div>
+<div mat-dialog-actions>
+    <a mat-raised-button color="primary" type="button" (click)="submited()">{{actionbtn}}</a>&nbsp;
+    <a mat-raised-button  color="warn" [mat-dialog-close]="true" >cancel</a>
+</div>
+
+

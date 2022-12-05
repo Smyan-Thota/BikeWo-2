@@ -1,0 +1,34 @@
+
+<mat-sidenav-container>
+
+    <mat-sidenav mode="side" opened>
+    
+        <app-navbar></app-navbar>
+    </mat-sidenav>
+    <mat-sidenav-content>  
+        <mat-grid-list cols="2" rowHeight="50px"  class="Mianhead">
+            <mat-grid-tile>
+            
+              <div>
+                <h1>Welcome To B<span>i</span>keWo</h1>
+              </div>
+            </mat-grid-tile>
+          
+            <mat-grid-tile>
+  
+              <div id="Dlogo">
+              
+              <a href="#"> <img [src]="Ulogo" alt="..Logo" ></a> 
+              
+              </div>&nbsp;&nbsp;&nbsp;
+      
+            <div class="userHeaing">
+                <h2><a href="#">admin</a></h2>
+            </div>
+            </mat-grid-tile>
+        
+              </mat-grid-list>
+<app-dealer-list></app-dealer-list>
+
+    </mat-sidenav-content>
+  </mat-sidenav-container>

@@ -1,0 +1,874 @@
+{
+  "DealerFrom": [
+    {
+      "DealerName": "Veenus EV auto Tech",
+      "contactNumber": 9878761234,
+      "Email": "dealers@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "4",
+      "massage": "N/A",
+      "id": 1
+    },
+    {
+      "DealerName": "Ramakrishna Motors",
+      "contactNumber": 9878761234,
+      "Email": "dealers@bikewo.in",
+      "Address": "Himayathnagar",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "5",
+      "massage": "N/A",
+      "id": 2
+    },
+    {
+      "DealerName": "Future Automotives",
+      "contactNumber": 9878761234,
+      "Email": "dealers@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 3
+    },
+    {
+      "DealerName": "Sreeja Motors",
+      "contactNumber": 9878761234,
+      "Email": "dealers@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 4
+    },
+    {
+      "DealerName": "Unitee Enterprises",
+      "contactNumber": 9878761234,
+      "Email": "dealers@bikewo.in",
+      "Address": "Himayathnagar",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 5
+    },
+    {
+      "DealerName": "Amar Motors",
+      "contactNumber": 9878761234,
+      "Email": "dealers@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 6
+    },
+    {
+      "DealerName": "kaustubha Motors",
+      "contactNumber": 9878761234,
+      "Email": "dealers@bikewo.in",
+      "Address": "Himayathnagar",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 7
+    },
+    {
+      "DealerName": "SS green Tech",
+      "contactNumber": 9878761234,
+      "Email": "ddealers@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 8
+    },
+    {
+      "DealerName": "Praveen Ram EV",
+      "contactNumber": 9878761234,
+      "Email": "dealers@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 9
+    }
+
+  ],
+
+  "EmployeeFrom": [
+    {
+      "EmployeeName": "barjraj",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 1
+    },
+    {
+      "EmployeeName": "ramdin verma",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 2
+    },
+    {
+      "EmployeeName": "sharat chandran",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 3
+    },
+    {
+      "EmployeeName": "birender mandal",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 4
+    },
+    {
+      "EmployeeName": "birender mandal",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 5
+    },
+    {
+      "EmployeeName": "amit",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Himayathnagar",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 6
+    },
+    {
+      "EmployeeName": "kushal",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 7
+    },
+    {
+      "EmployeeName": "kasid",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 8
+    },
+    {
+      "EmployeeName": "shiv prakash",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 9
+    },
+    {
+      "EmployeeName": "vikram singh",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 10
+    },
+    {
+      "EmployeeName": "sanjay",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 11
+    },
+    {
+      "EmployeeName": "abhi",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 12
+    },
+    {
+      "EmployeeName": "ram dutt gupta",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 13
+    },
+    {
+      "EmployeeName": "khadak singh",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 14
+    },
+    {
+      "EmployeeName": "gurmit singh",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 15
+    },
+    {
+      "EmployeeName": "chanderpal",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 16
+    },
+    {
+      "EmployeeName": "aman",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 17
+    },
+    {
+      "EmployeeName": "khursid",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 18
+    },
+    {
+      "EmployeeName": "rajeev",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Himayathnagar",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 19
+    },
+    {
+      "EmployeeName": "durgesh",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 20
+    },
+    {
+      "EmployeeName": "nahar singh",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 21
+    },
+    {
+      "EmployeeName": "ram kumar",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Himayathnagar",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 22
+    },
+    {
+      "EmployeeName": "sunder paal",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Himayathnagar",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 23
+    },
+    {
+      "EmployeeName": "maansingh aswal",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 24
+    },
+    {
+      "EmployeeName": "rohit",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 25
+    },
+    {
+      "EmployeeName": "rohit",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Himayathnagar",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 26
+    },
+    {
+      "EmployeeName": "sparsh",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 27
+    },
+    {
+      "EmployeeName": "santosh",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 28
+    },
+    {
+      "EmployeeName": "santosh",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Himayathnagar",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 29
+    },
+    {
+      "EmployeeName": "punit khandelwal",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 30
+    },
+    {
+      "EmployeeName": "dinesh",
+      "contactNumber": 9879879879,
+      "Email": "employee@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500001",
+      "district": "3",
+      "massage": "N/A",
+      "id": 31
+    }
+  ],
+  "OemFrom": [
+    {
+      "CompnyName": "Battre",
+      "contactNumber": 9878761234,
+      "Email": "OEM@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 1
+    },
+    {
+      "CompnyName": "Kinetic Green",
+      "contactNumber": 9878761234,
+      "Email": "OEM@bikewo.in",
+      "Address": "Himayathnagar",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 2
+    },
+    {
+      "CompnyName": "EV Minda",
+      "contactNumber": 9878761234,
+      "Email": "OEM@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 3
+    },
+    {
+      "CompnyName": "Hayasa",
+      "contactNumber": 9878761234,
+      "Email": "OEM@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 4
+    },
+    {
+      "CompnyName": "Eko Tejas",
+      "contactNumber": 9878761234,
+      "Email": "OEM@bikewo.in",
+      "Address": "Himayathnagar",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 5
+    },
+    {
+      "CompnyName": "ADMS",
+      "contactNumber": 9878761234,
+      "Email": "OEM@bikewo.in",
+      "Address": "Kukatpally",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 6
+    },
+    {
+      "CompnyName": "E Motorad",
+      "contactNumber": 9878761234,
+      "Email": "OEM@bikewo.in",
+      "Address": "Madhapur",
+      "city": "Hyderabad",
+      "State": "Telangana",
+      "Pincode": "500080",
+      "district": "3",
+      "massage": "N/A",
+      "id": 7
+    }
+  ],
+  "OEMPURCHASEFrom": [
+    {
+      "Model": "Zing",
+      "Variant": "48V",
+      "Quantity": "10`",
+      "OEM": "Kinetic Green",
+      "status": "Delivered",
+      "id": 1
+    },
+    {
+      "Model": "Zoom",
+      "Variant": "48V",
+      "Quantity": "10",
+      "OEM": "Kinetic Green",
+      "status": "En Route",
+      "id": 2
+    },
+    {
+      "Model": "Glizer G",
+      "Variant": "32V",
+      "Quantity": "10",
+      "OEM": "EV Minda",
+      "status": "Delivered",
+      "id": 3
+    },
+    {
+      "Model": "Glizer +",
+      "Variant": "48V",
+      "Quantity": "30",
+      "OEM": "EV Minda",
+      "status": "Ordered",
+      "id": 4
+    },
+    {
+      "Model": "Racity",
+      "Variant": "50V",
+      "Quantity": "40",
+      "OEM": "EV Minda",
+      "status": "Processing",
+      "id": 5
+    },
+    {
+      "Model": "Zoom",
+      "Variant": "32V",
+      "Quantity": "10",
+      "OEM": "EV Minda",
+      "status": "Delivered",
+      "id": 6
+    },
+    {
+      "Model": "Vglide",
+      "Variant": "48V",
+      "Quantity": "10",
+      "OEM": "EV Minda",
+      "status": "En Route",
+      "id": 6
+    },
+    {
+      "Model": "Nirbhar",
+      "Variant": "50V",
+      "Quantity": "5",
+      "OEM": "Hayasa",
+      "status": "Delivered",
+      "id": 7
+    },
+    {
+      "Model": "Daksha",
+      "Variant": "32V",
+      "Quantity": "2",
+      "OEM": "Hayasa",
+      "status": "Ordered",
+      "id": 8
+    },
+    {
+      "Model": "IRA",
+      "Variant": "48V",
+      "Quantity": "10",
+      "OEM": "Hayasa",
+      "status": "Processing",
+      "id": 9
+    },
+    {
+      "Model": "Ojas",
+      "Variant": "50V",
+      "Quantity": "20",
+      "OEM": "Hayasa",
+      "status": "Delivered",
+      "id": 10
+    },
+    {
+      "Model": "Reco",
+      "Variant": "32V",
+      "Quantity": "1",
+      "OEM": "Eko Tejas",
+      "status": "En Route",
+      "id": 11
+    },
+    {
+      "Model": "Axle Pro",
+      "Variant": "48V",
+      "Quantity": "2",
+      "OEM": "Eko Tejas",
+      "status": "Delivered",
+      "id": 12
+    },
+    {
+      "Model": "Era",
+      "Variant": "50V",
+      "Quantity": "20",
+      "OEM": "Eko Tejas",
+      "status": "Ordered",
+      "id": 13
+    },
+    {
+      "Model": "Era",
+      "Variant": "50V",
+      "Quantity": "2",
+      "OEM": "Hayasa",
+      "status": "Ordered",
+      "id": 14
+    },
+    {
+      "Model": "DB",
+      "Variant": "32V",
+      "Quantity": "2",
+      "OEM": "ADMS",
+      "status": "Processing",
+      "id": 15
+    },
+    {
+      "Model": "TTX",
+      "Variant": "48V",
+      "Quantity": "2",
+      "OEM": "Hayasa",
+      "status": "Delivered",
+      "id": 16
+    },
+    {
+      "Model": "Boxer",
+      "Variant": "50V",
+      "Quantity": "2",
+      "OEM": "ADMS",
+      "status": "En Route",
+      "id": 8
+    }
+  ],
+  "OEMPURCHASEFparts": [
+    {
+      "CompnyName": "Engine",
+      "partspecification": "Brushless ",
+      "Model": "Zing",
+      "OEMname": "Kinetic Green",
+      "NoFpurchases": "10",
+      "status": "Delivered",
+      "id": 1
+    },
+    {
+      "CompnyName": "Controller",
+      "partspecification": "OEM Specific",
+      "Model": "Zoom",
+      "OEMname": "Kinetic Green",
+      "NoFpurchases": "10",
+      "status": "En Route",
+      "id": 2
+    },
+    {
+      "CompnyName": "Lightbulb",
+      "partspecification": "30W ",
+      "Model": "Glizer G",
+      "OEMname": "EV Minda",
+      "NoFpurchases": "10",
+      "status": "Delivered",
+      "id": 3
+    },
+    {
+      "CompnyName": "Seat",
+      "partspecification": "Leather Seat",
+      "Model": "Glizer +",
+      "OEMname": "EV Minda",
+      "NoFpurchases": "10",
+      "status": "Ordered",
+      "id": 4
+    },
+    {
+      "CompnyName": "Engine",
+      "partspecification": "Brushless Motor",
+      "Model": "Racity",
+      "OEMname": "EV Minda",
+      "NoFpurchases": "10",
+      "status": "Delivered",
+      "id": 5
+    },
+    {
+      "CompnyName": "Controller",
+      "partspecification": "OEM Specific",
+      "Model": "Zoom",
+      "OEMname": "EV Minda",
+      "NoFpurchases": "20",
+      "status": "En Route",
+      "id": 6
+    },
+    {
+      "CompnyName": "Lightbulb",
+      "partspecification": "30W",
+      "Model": "Vglide",
+      "OEMname": "EV Minda",
+      "NoFpurchases": "10",
+      "status": "Delivered",
+      "id": 7
+    },
+    {
+      "CompnyName": "Seat",
+      "partspecification": "Leather Seat",
+      "Model": "Nirbhar",
+      "OEMname": "EV Minda",
+      "NoFpurchases": "10",
+      "status": "Delivered",
+      "id": 8
+    },
+    {
+      "CompnyName": "Engine",
+      "partspecification": "Brushless Motor",
+      "Model": "Daksha",
+      "OEMname": "EV Minda",
+      "NoFpurchases": "10",
+      "status": "Ordered",
+      "id": 9
+    },
+    {
+      "CompnyName": "Engine",
+      "partspecification": "Brushless Motor",
+      "Model": "Vglide",
+      "OEMname": "Daksha",
+      "NoFpurchases": "10",
+      "status": "Delivered",
+      "id": 10
+    }
+  ],
+  "Vehicle": [
+    {
+      "Model": "Kinetic Green",
+      "Variant": "Zing",
+      "Battery": "48V",
+      "id": 1
+    },
+    {
+      "Model": "Kinetic Green",
+      "Variant": "Zoom",
+      "Battery": "50V",
+      "id": 2
+    },
+    {
+      "Model": "EV Minda",
+      "Variant": "Glizer G",
+      "Battery": "32V",
+      "id": 3
+    },
+    {
+      "Model": "EV Minda",
+      "Variant": "Glizer +",
+      "Battery": "48V",
+      "id": 4
+    },
+    {
+      "Model": "EV Minda",
+      "Variant": "Racity",
+      "Battery": "50V",
+      "id": 5
+    },
+    {
+      "Model": "Hayasa",
+      "Variant": "Nirbhar",
+      "Battery": "50V",
+      "id": 6
+    },
+    {
+      "Model": "Hayasa",
+      "Variant": "Daksha",
+      "Battery": "32V",
+      "id": 7
+    },
+    {
+      "Model": "Hayasa",
+      "Variant": "IRA",
+      "Battery": "48V",
+      "id": 8
+    },
+    {
+      "Model": "Eko Tejas",
+      "Variant": "Reco",
+      "Battery": "32V",
+      "id": 9
+    },
+    {
+      "Model": "ADMS",
+      "Variant": "Axle Pro",
+      "Battery": "48V",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+
+
+<mat-sidenav-container>
+
+    <mat-sidenav mode="side" opened>
+    
+        <app-navbar></app-navbar>
+    </mat-sidenav>
+    <mat-grid-list cols="2" rowHeight="50px"  class="Mianhead">
+      <mat-grid-tile>
+      
+        <div>
+          <h1>Welcome To B<span>i</span>keWo</h1>
+        </div>
+      </mat-grid-tile>
+    
+      <mat-grid-tile>
+  
+        <div id="Dlogo">
+        
+        <a href="#"> <img [src]="Ulogo" alt="..Logo" ></a> 
+        
+        </div>&nbsp;&nbsp;&nbsp;
+  
+      <div class="userHeaing">
+          <h2><a href="#">admin</a></h2>
+      </div>
+      </mat-grid-tile>
+  
+        </mat-grid-list>
+  
+  
+  <mat-dialog-content class="mat-typography">
+    <mat-card class="mat-elevation-z4">
+      <mat-card class="mat-elevation-z8">
+          <h1 class="display-4"> OEM PURCHASE CREATION</h1>
+          <form [formGroup]="OEMPURCHASEFparts">
+              <mat-grid-list cols="3" rowHeight="120px">
+                  <mat-grid-tile>
+                         <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Part Name</mat-label>
+                <input type="text" matInput
+                     placeholder="name" formControlName="CompnyName">
+                       <mat-hint>Part Name!</mat-hint>
+            
+              </mat-form-field>
+                  </mat-grid-tile>
+                  <mat-grid-tile>
+                      <mat-form-field class="example-full-width" appearance="fill">
+                          <mat-label>part specification</mat-label>
+                          <input  matInput type="text" class="example-right-align"
+                                 placeholder="Enter spec" formControlName="partspecification"  maxlength="10" >
+                          <mat-hint>Enter spec!</mat-hint>
+  
+                        </mat-form-field>
+                  </mat-grid-tile>
+                  <mat-grid-tile>
+                      <mat-form-field class="example-full-width" appearance="fill">
+                          <mat-label>Model</mat-label>
+                          <input type="text" matInput 
+                                 placeholder="Model" formControlName="Model">
+                          <mat-hint>Enter Model!</mat-hint>
+                     
+                        </mat-form-field>
+                  </mat-grid-tile>
+              
+                </mat-grid-list>
+                <mat-grid-list cols="3" rowHeight="120px">
+                  <mat-grid-tile>
+                         <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>OEMname</mat-label>
+                <input type="text" matInput 
+                       placeholder="OEM Name" formControlName="OEMname">
+                       <mat-hint>OEMname!</mat-hint>
+           
+              </mat-form-field>
+                  </mat-grid-tile>
+                  <mat-grid-tile>
+                      <mat-form-field class="example-full-width" appearance="fill">
+                          <mat-label>No of Purchases</mat-label>
+                          <input type="text" matInput 
+                                 placeholder="No of Purchases" formControlName="NoFpurchases">
+                          <mat-hint>No of Purchases!</mat-hint>
+                        
+                        </mat-form-field>
+                  </mat-grid-tile>
+             
+               <mat-grid-tile>
+                <mat-form-field appearance="fill">
+                    <mat-label>Status</mat-label>
+                    <mat-select formControlName="status">
+                      <mat-option value="Purchased">Purchased</mat-option>
+                      <mat-option value="paymentCompleted">paymentCompleted</mat-option>
+                      <mat-option value="dispatched">dispatched</mat-option>
+                      <mat-option value="Enroute">En route</mat-option>
+                      <mat-option value="Delivered">Delivered</mat-option>
+                    </mat-select>
+                    <mat-hint>Selectstatus!</mat-hint>
+                  </mat-form-field>
+               </mat-grid-tile>
+            
+                </mat-grid-list>
+             
+                <a mat-raised-button color="primary" type="button" (click)="submited()">Submit</a>&nbsp;
+                <a mat-raised-button  color="warn" routerLink="/purchasepart">cancel</a>
+            </form>
+      </mat-card>
+  </mat-card>
+  </mat-dialog-content>
+   
+   
+     
+  
+  
+  

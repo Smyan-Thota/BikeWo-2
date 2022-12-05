@@ -1,0 +1,37 @@
+
+
+<h1 mat-dialog-title>Vechicle Edit</h1>
+<div mat-dialog-content>
+    <div class="row">
+        <mat-form-field >
+            <mat-label>Model</mat-label>
+            <input type="text" matInput
+                 placeholder="Model" formControlName="Model">
+                   <mat-hint>Enter Model!</mat-hint>
+        
+          </mat-form-field>
+          <mat-form-field >
+            <mat-label>Variant</mat-label>
+            <input  matInput type="text" 
+                   placeholder="Enter Variant" formControlName="Variant" >
+            <mat-hint>Enter Variant!</mat-hint>
+
+          </mat-form-field>
+          <mat-form-field >
+            <mat-label>Battery</mat-label>
+            <input type="text" matInput 
+                   placeholder="Battery" formControlName="Battery">
+            <mat-hint>Enter Battery!</mat-hint>
+       
+          </mat-form-field>
+        </div>
+     
+  
+</div>
+<div mat-dialog-actions>
+    <a mat-raised-button color="primary" type="button" routerLink="/dealer">Submite</a>&nbsp;
+    <a mat-raised-button  color="warn" [mat-dialog-close]="true" >cancel</a>
+</div>
+
+
+

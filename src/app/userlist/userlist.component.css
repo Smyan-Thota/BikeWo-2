@@ -1,0 +1,96 @@
+.header{
+    background-color: #0d1d41;
+}mat-grid-tile h1{
+    color: #fff;
+    font-size:44px;
+}
+table {
+    width: 100%;
+  }
+  mat-sidenav-container{
+    height: 100%;
+   overflow-x: hidden;
+}
+h1{
+  font-weight: bold;
+  font-size: 43px;
+  background: -webkit-linear-gradient(#eef1f0, #f6f7f9);
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+mat-sidenav{
+    background-color: #0d1d41;
+    color:#fff;
+    width: 18%;
+    text-align: center;
+    height: 100%;
+
+}
+mat-drawer{
+    overflow-y: hidden !important;
+}
+.mat-list-base .mat-list-item{
+    color:#fff;
+  padding: 0px 10px;
+  cursor: pointer;
+
+}
+.Mianhead{
+    background-color: #0d1d41;
+    color:#fff;
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+}
+span{
+    color: green;
+}
+.display-4{
+    font-weight: bold;
+    font-size: 43px;
+    background: -webkit-linear-gradient(#2db57d, #0d1d41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+table {
+    width: 100%;
+  }
+  th{
+   background: linear-gradient(#2db57d,#0d1d41);
+   color:white;
+  font-size: large;
+  text-align: center;
+
+  }
+  .mat-row .mat-cell {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+  .mat-row:hover .mat-cell {
+    border-color: currentColor;
+  }
+  
+  .demo-row-is-clicked {
+    font-weight: bold;
+  }
+
+  mat-raised-button {
+      box-shadow: 0px 5px 5px #0d1d41;
+  }
+ #btn1{
+      box-shadow: 0px 5px 5px #0d1d41;
+  }
+  ng-container{
+    box-shadow: 0px 5px 5px #0d1d41;
+  }
+  .mat-raised-button{
+    border: 1px solid #227f68;
+  }
+.example-margin{
+    padding: 0px 55px;
+  }

@@ -1,0 +1,93 @@
+.header{
+    background-color: #0d1d41;
+}
+mat-grid-tile h1{
+    color:#fff;
+    font-weight: bold;
+  
+    font-size: 34px;
+}
+h1 span{
+    color:#2db57d;
+}
+.example-form {
+    min-width: 150px;
+    max-width: 700px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  mat-label{
+      font-size: larger;
+  }
+  a {
+    position: relative;
+    display:inline-block;
+    text-transform: uppercase;
+    color:rgb(22, 2, 2);
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transform: 0.2s;
+}
+a:hover{
+    color:#f7f7f7;
+    background: #2195f3;
+   
+}
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top:0;
+    left:-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #000000);
+}
+a:hover span:nth-child(1){
+ left:100%;
+  transition: 1s;
+}
+a span:nth-child(3){
+    bottom:0;
+    right:-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #000000);
+}
+a:hover span:nth-child(3){
+ right:100%;
+  transition:2s;
+}
+a span:nth-child(2){
+    top:-100%;
+    right:0px;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,#000000);
+}
+a:hover span:nth-child(2){
+ top:100%;
+  transition:2s;
+  transition-delay:0.25s;
+}
+a span:nth-child(4){
+    bottom:-100%;
+    left:0px;
+    width:2px;
+    height:100%;
+    background: linear-gradient(360deg, transparent,#000000);
+}
+a:hover span:nth-child(4){
+ bottom:100%;
+  transition:2s;
+  transition-delay:0.45s;
+}
+.error.mat-snack-bar-container{
+    color:red;
+}

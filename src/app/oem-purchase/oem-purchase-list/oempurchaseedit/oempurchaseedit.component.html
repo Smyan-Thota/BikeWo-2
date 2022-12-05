@@ -1,0 +1,60 @@
+
+
+<h1 mat-dialog-title>OEM Vechicle Edit</h1>
+<div mat-dialog-content>
+    <form [formGroup]="OEMPURCHASEFrom">
+    <div class="row">
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Model</mat-label>
+            <input type="text" matInput
+                 placeholder="Model" formControlName="Model">
+                   <mat-hint>Enter Model!</mat-hint>
+        
+          </mat-form-field>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Battery</mat-label>
+            <input  matInput type="text" class="example-right-align"
+                   placeholder="Enter Battery" formControlName="Battery" >
+            <mat-hint>Enter Battery!</mat-hint>
+
+          </mat-form-field>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Quantity</mat-label>
+            <input type="text" matInput 
+                   placeholder="quantity" formControlName="Quantity">
+            <mat-hint>Enter Model!</mat-hint>
+       
+          </mat-form-field>
+        </div>
+        <div class="row">
+      
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>OEM</mat-label>
+                <input type="text" matInput 
+                       placeholder="OEM" formControlName="OEM">
+                <mat-hint>Enter Model!</mat-hint>
+           
+              </mat-form-field>
+              <mat-form-field appearance="fill">
+                <mat-label>Status</mat-label>
+                <mat-select formControlName="status">
+                  <mat-option value="Purchased">Purchased</mat-option>
+                  <mat-option value="paymentCompleted">paymentCompleted</mat-option>
+                  <mat-option value="dispatched">dispatched</mat-option>
+                  <mat-option value="Enroute">En route</mat-option>
+                  <mat-option value="Delivered">Delivered</mat-option>
+                </mat-select>
+                <mat-hint>Selectstatus!</mat-hint>
+              </mat-form-field>
+          
+        </div>
+    
+    </form>
+</div>
+
+<div mat-dialog-actions>
+    <a mat-raised-button color="primary" type="button" routerLink="/dealer" (click)="submited()">{{actionbtn}}</a>&nbsp;
+    <a mat-raised-button  color="warn" [mat-dialog-close]="true" >cancel</a>
+</div>
+
+

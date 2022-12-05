@@ -1,0 +1,47 @@
+<mat-grid-list cols="4" rowHeight="24:7" class="mat-elevation-z8 header" >
+    <mat-grid-tile> 
+        <img [src]="Logo" width="200px">
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile>
+      <h1>Welcome to B<span class="success">i</span>keWo</h1>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+  </mat-grid-list>
+
+  <mat-grid-list cols="2" rowHeight="12:10">
+    <mat-grid-tile> 
+        <img [src]="Loginimg">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card class="mat-elevation-z6">
+            <mat-card class="mat-elevation-z4">
+                <form 
+                [formGroup]="Login" >
+                    <mat-form-field class="example-full-width FormGroup" appearance="fill">
+                      <mat-label>UserName</mat-label>
+                      <input matInput placeholder="Enter UserName" name="username"  id="Uname" FormControl="Username">
+                      <mat-error *ngIf="Login.get('username')?.hasError('required')">This is required.</mat-error>
+                    </mat-form-field>
+                  
+                    <mat-form-field class="example-full-width FormGroup" appearance="fill">
+                        <mat-label>Password</mat-label>
+                        <input ngif="admin@1==admin@1;  else elseBlock"  matInput placeholder="Password" value="" type="password" name="password" id="password"  FormControl="password">
+                       
+                      </mat-form-field>
+                    
+                  </form>
+                  <a mat-button id="Login_btn" (click)="openSnackBar()" aria-label="Show an example snack-bar" >
+      
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </mat-card>
+        </mat-card>
+     
+    </mat-grid-tile>
+ 
+  </mat-grid-list>
+
